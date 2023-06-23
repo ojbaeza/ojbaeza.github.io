@@ -2,6 +2,7 @@ baseURL = 'http://ojbaeza.com/'
 languageCode = 'en-us'
 title = 'OJBaeza'
 theme = "m10c"
+themes = "themes/"
 paginate = 8
 license = "MIT"
 
