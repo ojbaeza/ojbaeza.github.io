@@ -1,0 +1,41 @@
+baseURL = 'http://ojbaeza.com/'
+languageCode = 'en-us'
+title = 'OJBaeza'
+theme = "m10c"
+paginate = 8
+license = "MIT"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "About me"
+    url = "/about/"
+    weight = 2
+
+[params]
+  author = "Óscar J. Baeza"
+  description = "My name is Óscar J. Baeza. I'm a senior PHP developer, podcaster, early bird fitboxer, casual gamer, synesthetic & true neutral."
+  menu_item_separator = " - "
+  [[params.social]]
+    icon = "hexagon"
+    name = "Mastodon"
+    url = "https://mas.to/@ojbaeza"
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/ojbaeza"
+  [[params.social]]
+    icon = "rss"
+    name = "RSS"
+    url = "https://ojbaeza.com/index.xml"
+  [params.style]
+    darkestColor = "#17030E"
+    darkColor = "#212121"
+    lightColor = "#d6d6d6"
+    lightestColor = "#d3d3d3"
+    primaryColor = "#eacd30"
