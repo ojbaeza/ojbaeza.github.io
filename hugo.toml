@@ -1,7 +1,7 @@
 baseURL = 'http://ojbaeza.com/'
 languageCode = 'en-us'
 title = 'OJBaeza'
-theme = "m10c"
+theme = "hugo-coder"
 themes = "themes/"
 paginate = 8
 license = "MIT"
@@ -13,35 +13,40 @@ license = "MIT"
     url = "/"
     weight = 1
   [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "posts/"
+    weight = 2
+  [[menu.main]]
     identifier = "about"
     name = "About me"
-    url = "/about/"
-    weight = 2
+    url = "about/"
+    weight = 3
 
 [params]
   author = "Óscar J. Baeza"
+  info = "Senior PHP developer, podcaster and early bird fitboxer"
+  gravatar = "ojbaeza@duck.com"
   description = "My name is Óscar J. Baeza. I'm a senior PHP developer, podcaster, early bird fitboxer, casual gamer, synesthetic & true neutral."
-  menu_item_separator = " - "
+  keywords = "ojbaeza, OJ, PHP developer, podcaster, fitboxer, kafelog, marketgoo, synesthetic"
+  favicon_16 = "static/favicons/favicon-16x16.png"
+  favicon_32 = "static/favicons/favicon-32x32.png"
+  touchIcon = "static/favicons/apple-touch-icon.png"
+  since = 2022
+  enableTwemoji = true
+  colorScheme = "dark"
   [[params.social]]
-    icon = "hexagon"
     name = "Mastodon"
+    icon = "fa fa-mastodon fa-2x"
+    weight = 1
     url = "https://mas.to/@ojbaeza"
   [[params.social]]
-    icon = "github"
     name = "Github"
+    icon = "fa fa-github fa-2x"
+    weight = 2
     url = "https://github.com/ojbaeza"
   [[params.social]]
-    icon = "rss"
     name = "RSS"
+    icon = "fa fa-rss fa-2x"
+    weight = 3
     url = "https://ojbaeza.com/index.xml"
-  [params.style]
-    darkestColor = "#17030E"
-    darkColor = "#212121"
-    lightColor = "#d6d6d6"
-    lightestColor = "#d3d3d3"
-    primaryColor = "#eacd30"
-
-[module]
-  [module.hugoVersion]
-    extended = true
-    min = "0.55.0"
