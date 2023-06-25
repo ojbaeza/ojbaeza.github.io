@@ -40,3 +40,8 @@ license = "MIT"
     lightColor = "#d6d6d6"
     lightestColor = "#d3d3d3"
     primaryColor = "#eacd30"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
